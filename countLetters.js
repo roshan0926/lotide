@@ -11,9 +11,13 @@ const countLetters = function(str) {
   const noSpace = str.split(' ').join('');
   const letterList = {};
   for (const letter of noSpace) {
-    if (!letterList[letter]) letterList[letter] = 0;
-    letterList[letter] += 1;
+    if (!letterList[letter]) {
+      letterList[letter] = 0;
+    } 
+      letterList[letter] += 1;
   }
   return letterList;
 };
+  
+
 console.log(countLetters('lighthouse in the house'))
