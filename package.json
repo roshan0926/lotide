@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@roshan0926/lotide",
   "version": "1.0.0",
-  "description": "",
+  "description": "A clone of the lodash JavaScript library for practicing coding of various functions using Javascript",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
@@ -20,7 +20,7 @@
     "type": "git",
     "url": "git+https://github.com/roshan0926/lotide.git"
   },
-  "author": "",
+  "author": "Roshan Nasseri",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/roshan0926/lotide/issues"
